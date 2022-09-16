@@ -3,14 +3,13 @@
     'name': "MIT School Management System",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        MIT developer's Creation Custom School Management System""",
 
     'description': """
-        Long description of module's purpose
+       MIT developer's Creation Custom School Management System
     """,
 
-    'author': "Thandar",
+    'author': "Thandar, Khant Sithu Aung",
     'maintainer': 'Khant Sithu Aung',
     'website': "http://www.yourcompany.com",
 
@@ -84,5 +83,5 @@
     'demo': [
         'demo/demo.xml',
     ],
-
+    'images': ['static/description/banner.png'],
 }
