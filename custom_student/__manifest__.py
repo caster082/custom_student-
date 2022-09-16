@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "MIT School Management System",
+    'name': "School Management System",
 
     'summary': """
         MIT developer's Creation Custom School Management System""",
