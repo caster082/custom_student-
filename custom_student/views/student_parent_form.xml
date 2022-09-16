@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="student_parent_form_view" model="ir.ui.view">
+            <field name="name">student_parent_form_view</field>
+            <field name="model">student.parent</field>
+            <field name="arch" type="xml">
+
+                <!--                create,delete and copy=duplicate =0 mean for remove create delete and duplicate button in form-->
+                <form string="Parent">
+                    <sheet>
+                        <div>
+                            <group>
+                                <field name="father_name"/>
+                                <field name="mother_name"/>
+                                <field name="student_name"/>
+                                <field name="user_id"/>
+                                <field name="education_id"/>
+
+
+                            </group>
+                            <group>
+                                <field name="skill_id"/>
+
+                            </group>
+
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

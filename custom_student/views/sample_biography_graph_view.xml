@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="sample_biography_graph" model="ir.ui.view">
+            <field name="name">graph_sample.biography</field>
+            <field name="model">samplebiography</field>
+            <field name="arch" type="xml">
+                <graph string="Student Registration Graph" >
+                    <field name="reference" type="row"></field>
+                    <field name="state" type="measure"/>
+                </graph>
+
+            </field>
+        </record>
+    </data>
+</odoo>

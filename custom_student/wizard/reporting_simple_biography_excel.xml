@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <report id="reporting_simple_bio_excel"
+                string="Sample Biography Excel Report"
+                model="reporting.wizard"
+                report_type="xlsx"
+                name="custom_student.reporting_simple_bio_excel_id"
+                file="Biography Sample" menu="False"/>
+    </data>
+</odoo>

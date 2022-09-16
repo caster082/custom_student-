@@ -1,0 +1,23 @@
+<odoo>
+    <data>
+        <record id="tree_bio_skill" model="ir.ui.view">
+            <field name="name">tree.bio.skill</field>
+            <field name="model">bio.skill</field>
+            <field name="arch" type="xml">
+                <tree string="Skill">
+                    <field name="name"/>
+                    <field name="position"/>
+                    <field name="responsibilities"/>
+                    <field name="from_date"/>
+                    <field name="to_date"/>
+                     <field name="description"/>
+                </tree>
+
+            </field>
+
+
+
+        </record>
+
+    </data>
+</odoo>

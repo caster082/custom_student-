@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_customstudent,Access Custom Student,model_customstudent,,1,1,1,1
+access_samplebiography,Access Sample Biography,model_samplebiography,,1,1,1,1
+access_edubackground,Access Education Background,model_edubackground,,1,1,1,1
+access_bio_history,Access Bio History,model_bio_history,,1,1,1,1
+access_bio_skill,Access Bio Skill,model_bio_skill,,1,1,1,1
+access_reporting.wizard,Access Reporting Wizard,model_reporting_wizard,,1,1,1,1
+access_student.parent,Access Student Parent,model_student_parent,,1,1,1,1
+
+
+
+
+

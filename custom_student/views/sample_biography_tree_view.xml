@@ -1,0 +1,47 @@
+<odoo>
+    <data>
+        <!-- show record in tree view when click student-->
+        <record id="sample_biography_list" model="ir.ui.view">
+            <field name="name">tree_sample.biography</field>
+            <field name="model">samplebiography</field>
+            <field name="arch" type="xml">
+                <tree decoration-success="state =='done'" decoration-info="state =='confirm'"
+                     decoration-danger="state =='draft'" multi_edit="1">
+
+<!--                    sequence field-->
+<!--                    <field name="id" optional="show" />-->
+                    <field name="reference" optional="show"/>
+                    <field name="name" optional="show"/>
+<!--                    avg= Tol Ages=> average age-->
+                    <field name="age" optional="show" sum="Total Ages"/>
+                    <field name="nrc" optional="show"/>
+                    <field name="phone" optional="hide"/>
+                    <field name="email" optional="show"/>
+                    <field name="activity_ids" widget="list_activity" optional="hide"/>
+                     <field name="state" optional="show"/>
+                    <field name="progress" widget="progressbar" />
+                </tree>
+            </field>
+        </record>
+
+<!--        calendar view-->
+        <record id="sample_biography_calendar" model="ir.ui.view">
+            <field name="name">calendar_sample.biography</field>
+            <field name="model">samplebiography</field>
+            <field name="arch" type="xml">
+<!--                mode is month (show default with month)-->
+<!--                color state show different color in calendar view-->
+<!--                date_delay use in caleandar view -->
+<!--                quick_add false mean to remove alert when click edit button in calendar-->
+<!--                event_open_popup=Ture is in calendar view,click edit show pop up-->
+<!--                even_limit 5 mean if above 5 show (show more)-->
+                <calendar string="Learning" date_start="study_date" mode="month" date_delay="duration"
+                          color="state" quick_add="False" event_open_popup="True" event_limit="5">
+                    <field name="skill" filters="1"></field>
+                    <field name="state" invisible="1" filters="1"/>
+                </calendar>
+
+            </field>
+        </record>
+    </data>
+</odoo>

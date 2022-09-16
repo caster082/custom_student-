@@ -1,0 +1,750 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* custom_student
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-20 04:24+0000\n"
+"PO-Revision-Date: 2022-06-20 04:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_needaction
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Action Print"
+msgstr "အက်ပရင့်"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__active
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__active
+msgid "Active"
+msgstr "လှုပ်ရှားမူ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__activity_ids
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__activity_ids
+msgid "Activities"
+msgstr "လှုပ်ရှားမှုများ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__activity_exception_decoration
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "လုပ်ဆောင်ချက် ခြွင်းချက် အလှဆင်ခြင်း။"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__activity_state
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__activity_state
+msgid "Activity State"
+msgstr "လုပ်ဆောင်ချက် အခြေအနေ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__address
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__address
+msgid "Address"
+msgstr "လိပ်စာ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__age
+msgid "Age"
+msgstr "အသက်"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_attachment_count
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_attachment_count
+msgid "Attachment Count"
+msgstr "Attachment အရေအတွက်"
+
+#. module: custom_student
+#: model:ir.actions.act_window,name:custom_student.action_history
+#: model:ir.model,name:custom_student.model_bio_history
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__bio_history
+#: model:ir.ui.menu,name:custom_student.bio_history
+#: model_terms:ir.ui.view,arch_db:custom_student.bio_history_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.tree_bio_history
+msgid "Bio History"
+msgstr "သမိုင်း"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Bio SKill"
+msgstr "ကျွမ်းကျင်မှု"
+
+#. module: custom_student
+#: model:ir.actions.act_window,name:custom_student.action_skill
+#: model:ir.model,name:custom_student.model_bio_skill
+#: model:res.groups,name:custom_student.group_skill
+msgid "Bio Skill"
+msgstr "ကျွမ်းကျင်မှု"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.form_reporting_wizard
+msgid "Bio Type"
+msgstr "အတ်ထုပ်ပတ်တိ Type"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Biography Information"
+msgstr "အတ္ထုပ္ပတ္တိအချက်အလက်"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__certification
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Certification"
+msgstr "Certification"
+
+#. module: custom_student
+#: model:ir.ui.menu,name:custom_student.education_background
+msgid "Configuration"
+msgstr "ဖွဲ့စည်းမှု"
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__samplebiography__state__confirm
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Confirm"
+msgstr "အတည်ပြုပါ။"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.custom_student_form_view
+msgid "Contact Information"
+msgstr "ဆက်သွယ်ရန်အချက်အလက်များ"
+
+#. module: custom_student
+#: model_terms:ir.actions.act_window,help:custom_student.action_sample_biography
+msgid "Create First Sample Biography"
+msgstr "ပထမနမူနာ အတ္ထုပ္ပတ္တိကို ဖန်တီးပါ။"
+
+#. module: custom_student
+#: model_terms:ir.actions.act_window,help:custom_student.action_history
+msgid "Create first Bio History"
+msgstr "ပထမဆုံး အတ္ထုပ္ပတ္တိသမိုင်းကို ဖန်တီးပါ။"
+
+#. module: custom_student
+#: model_terms:ir.actions.act_window,help:custom_student.action_education_background
+msgid "Create first Education"
+msgstr "ပထမဆုံး ပညာရေးကို ဖန်တီးပါ။"
+
+#. module: custom_student
+#: model_terms:ir.actions.act_window,help:custom_student.action_skill
+msgid "Create first Skill"
+msgstr "ပထမဆုံး Skill ကိုဖန်တီးပါ။"
+
+#. module: custom_student
+#: model_terms:ir.actions.act_window,help:custom_student.action_custom_student
+msgid "Create first custom student"
+msgstr "ပထမဆုံး စိတ်ကြိုက်ကျောင်းသားကို ဖန်တီးပါ။"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__create_uid
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__create_uid
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__create_uid
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__create_uid
+#: model:ir.model.fields,field_description:custom_student.field_report_custom_student_sample_biography_excel_report_template__create_uid
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__create_uid
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__create_uid
+msgid "Created by"
+msgstr "ဖန်တီးသူ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__create_date
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__create_date
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__create_date
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__create_date
+#: model:ir.model.fields,field_description:custom_student.field_report_custom_student_sample_biography_excel_report_template__create_date
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__create_date
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.actions.act_window,name:custom_student.action_custom_student
+#: model:ir.ui.menu,name:custom_student.custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.custom_student_form_view
+msgid "Custom Student"
+msgstr "ကျောင်းသား"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__date_of_birth
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__date_of_birth
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Date of Birth"
+msgstr "မွေးရက်"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__description
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__description
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__description
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Description"
+msgstr "ဖော်ပြချက်"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__display_name
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__display_name
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__display_name
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__display_name
+#: model:ir.model.fields,field_description:custom_student.field_report_custom_student_sample_biography_excel_report_template__display_name
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__display_name
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__display_name
+msgid "Display Name"
+msgstr "ဖော်ပြမည့်အမည်"
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__samplebiography__state__done
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Done"
+msgstr "ပြီးပြီ။"
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__samplebiography__state__draft
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Draft"
+msgstr "အကြမ်း"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__ebl_count
+msgid "EBL count"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.actions.act_window,name:custom_student.action_education_background
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Education"
+msgstr "ပညာရေး"
+
+#. module: custom_student
+#: model:ir.model,name:custom_student.model_edubackground
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__education_background
+#: model:ir.ui.menu,name:custom_student.edu_background_sub
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+#: model_terms:ir.ui.view,arch_db:custom_student.tree_education_background
+msgid "Education Background"
+msgstr ""
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.education_background_form_view
+msgid "Education Student"
+msgstr "ပညာရေးနောက်ခံ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__email
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__email
+#: model_terms:ir.ui.view,arch_db:custom_student.customstudent_template
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Email"
+msgstr "အီးမေးလ်"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.bio_history_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.bio_skill_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.custom_student_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.education_background_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Enter your name"
+msgstr "သင့်အမည်ကို ထည့်သွင်းပါ။"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Excel Print"
+msgstr "Excel ပရင့်"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__facebook
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__facebook
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Facebook"
+msgstr "ဖေ့ဘုတ်"
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__customstudent__gender__0
+#: model:ir.model.fields.selection,name:custom_student.selection__samplebiography__gender__female
+#: model_terms:ir.ui.view,arch_db:custom_student.search_sample_biography
+msgid "Female"
+msgstr "အမျိုးသမီး"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_follower_ids
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_follower_ids
+msgid "Followers"
+msgstr "နောက်လိုက်များ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_channel_ids
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_partner_ids
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__from_date
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__from_date
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__from_date
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "From Date"
+msgstr "စတင်သည့်ရက်စွဲ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__gender
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__simple_gender
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__standard_gender
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__gender
+#: model_terms:ir.ui.view,arch_db:custom_student.search_sample_biography
+msgid "Gender"
+msgstr ""
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.search_sample_biography
+msgid "Group By"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__id
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__id
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__id
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__id
+#: model:ir.model.fields,field_description:custom_student.field_report_custom_student_sample_biography_excel_report_template__id
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__id
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__id
+msgid "ID"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__activity_exception_icon
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__activity_exception_icon
+msgid "Icon"
+msgstr "အိုင်ကွန်"
+
+#. module: custom_student
+#: model:ir.model.fields,help:custom_student.field_customstudent__activity_exception_icon
+#: model:ir.model.fields,help:custom_student.field_samplebiography__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,help:custom_student.field_customstudent__message_needaction
+#: model:ir.model.fields,help:custom_student.field_customstudent__message_unread
+#: model:ir.model.fields,help:custom_student.field_samplebiography__message_needaction
+#: model:ir.model.fields,help:custom_student.field_samplebiography__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "အမှန်ခြစ်ထားလျှင် မက်ဆေ့ဂျ်အသစ်များသည် သင့်အာရုံစူးစိုက်မှုကို လိုအပ်သည်။"
+
+#. module: custom_student
+#: model:ir.model.fields,help:custom_student.field_customstudent__message_has_error
+#: model:ir.model.fields,help:custom_student.field_samplebiography__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__image
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__image
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__image
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__simple_image
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__standard_image
+msgid "Image"
+msgstr ""
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.bio_history_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.bio_skill_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.custom_student_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.education_background_form_view
+msgid "Information"
+msgstr "သတင်းအချက်အလက်"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_is_follower
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_is_follower
+msgid "Is Follower"
+msgstr "Follower"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__simple_job_type
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__standard_job_type
+msgid "Job Type"
+msgstr "အလုပ်အမျိုးအစား"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__language
+msgid "Language"
+msgstr "ဘာသာစကား"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history____last_update
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill____last_update
+#: model:ir.model.fields,field_description:custom_student.field_customstudent____last_update
+#: model:ir.model.fields,field_description:custom_student.field_edubackground____last_update
+#: model:ir.model.fields,field_description:custom_student.field_report_custom_student_sample_biography_excel_report_template____last_update
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard____last_update
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__write_uid
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__write_uid
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__write_uid
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__write_uid
+#: model:ir.model.fields,field_description:custom_student.field_report_custom_student_sample_biography_excel_report_template__write_uid
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__write_uid
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__write_date
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__write_date
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__write_date
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__write_date
+#: model:ir.model.fields,field_description:custom_student.field_report_custom_student_sample_biography_excel_report_template__write_date
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__write_date
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__location
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Location"
+msgstr "တည်နေရာ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_main_attachment_id
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.ui.menu,name:custom_student.custom_student_main
+msgid "Main Info"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__customstudent__gender__1
+#: model:ir.model.fields.selection,name:custom_student.selection__samplebiography__gender__male
+#: model_terms:ir.ui.view,arch_db:custom_student.search_sample_biography
+msgid "Male"
+msgstr "ကျား"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_has_error
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_ids
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__nrc
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__nrc
+#: model_terms:ir.ui.view,arch_db:custom_student.customstudent_template
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "NRC"
+msgstr "နိုင်ငံသားစိစစ်ရေးကဒ်ပြား"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__name
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__name
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__name
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__name
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__name
+#: model_terms:ir.ui.view,arch_db:custom_student.customstudent_template
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Name"
+msgstr "နာမည်"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__nationality
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__nationality
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Nationality"
+msgstr "လူမျိုးစု"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__activity_date_deadline
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__activity_summary
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__activity_type_id
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_needaction_counter
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_has_error_counter
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,help:custom_student.field_customstudent__message_needaction_counter
+#: model:ir.model.fields,help:custom_student.field_samplebiography__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,help:custom_student.field_customstudent__message_has_error_counter
+#: model:ir.model.fields,help:custom_student.field_samplebiography__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,help:custom_student.field_customstudent__message_unread_counter
+#: model:ir.model.fields,help:custom_student.field_samplebiography__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Object Print"
+msgstr "Object ပရင့်"
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__customstudent__gender__2
+#: model:ir.model.fields.selection,name:custom_student.selection__samplebiography__gender__other
+msgid "Other"
+msgstr ""
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.custom_student_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Other Information"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__phone
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__phone
+#: model_terms:ir.ui.view,arch_db:custom_student.customstudent_template
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "Phone"
+msgstr "ဖုန်း"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__position
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__position
+msgid "Position"
+msgstr "ရာထူး
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__image
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__image
+msgid "Profile"
+msgstr "ပုံ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__qualification
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__qualification
+msgid "Qualification"
+msgstr "ပညာအရည်အချင်း"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Religion"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.actions.act_window,name:custom_student.action_reporting_wizard
+#: model:ir.ui.menu,name:custom_student.menu_reporting
+#: model_terms:ir.ui.view,arch_db:custom_student.form_reporting_wizard
+msgid "Reporting"
+msgstr "အစီရင်ခံခြင်း။"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__responsibilities
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__responsibilities
+msgid "Responsibilities"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__activity_user_id
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.ui.menu,name:custom_student.bio_skill
+msgid "SKill"
+msgstr "ကျွမ်းကျင်မှု"
+
+#. module: custom_student
+#: model:ir.actions.act_window,name:custom_student.action_sample_biography
+#: model:ir.actions.report,name:custom_student.sample_biography_report
+#: model:ir.model,name:custom_student.model_samplebiography
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__sample_biography_id
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__sample_biography_id
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__sample_biography_id
+#: model:ir.ui.menu,name:custom_student.sample_biography
+#: model_terms:ir.ui.view,arch_db:custom_student.search_sample_biography
+msgid "Sample Biography"
+msgstr "Biography"
+
+#. module: custom_student
+#: model:ir.actions.report,name:custom_student.sample_biography_excel_report_id
+msgid "Sample Biography Excel Report"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__bio_type
+msgid "Sample Biography Type"
+msgstr "အတ္ထုပ္ပတ္တိ Excel အစီရင်ခံစာ"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__school_type
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__school_type
+#: model_terms:ir.ui.view,arch_db:custom_student.search_sample_biography
+msgid "School"
+msgstr "ကျောင်း"
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__reporting_wizard__bio_type__simple
+msgid "Simple"
+msgstr "ရိုးရိုးရှင်းရှင်း"
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__simple_bio
+#: model:ir.model.fields,field_description:custom_student.field_reporting_wizard__standard_bio
+msgid "Simple Bio"
+msgstr ""
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.form_reporting_wizard
+msgid "Simple Biography"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__skill
+#: model_terms:ir.ui.view,arch_db:custom_student.bio_skill_form_view
+#: model_terms:ir.ui.view,arch_db:custom_student.tree_bio_skill
+msgid "Skill"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__reporting_wizard__bio_type__standard
+msgid "Standard"
+msgstr "စံ"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.form_reporting_wizard
+msgid "Standard Biography"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__state
+msgid "Status"
+msgstr "အဆင့်"
+
+#. module: custom_student
+#: model:ir.model.fields,help:custom_student.field_customstudent__activity_state
+#: model:ir.model.fields,help:custom_student.field_samplebiography__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: custom_student
+#: model:ir.ui.menu,name:custom_student.custom_student_sample
+msgid "Student"
+msgstr "ကျောင်းသား"
+
+#. module: custom_student
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_form_view
+msgid "Student Biography"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.actions.report,name:custom_student.custom_student_report
+#: model_terms:ir.ui.view,arch_db:custom_student.customstudent_template
+msgid "Student Report"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_bio_history__to_date
+#: model:ir.model.fields,field_description:custom_student.field_bio_skill__to_date
+#: model:ir.model.fields,field_description:custom_student.field_edubackground__to_date
+#: model_terms:ir.ui.view,arch_db:custom_student.sample_biography_template
+msgid "To Date"
+msgstr "ကုန်ဆုံးရက်"
+
+#. module: custom_student
+#: model:ir.model.fields,help:custom_student.field_customstudent__activity_exception_decoration
+#: model:ir.model.fields,help:custom_student.field_samplebiography__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__customstudent__school_type__1
+#: model:ir.model.fields.selection,name:custom_student.selection__samplebiography__school_type__ucsy_mdy
+msgid "University of Computer Studied Mdy"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields.selection,name:custom_student.selection__customstudent__school_type__0
+#: model:ir.model.fields.selection,name:custom_student.selection__samplebiography__school_type__ucsy_ygn
+msgid "University of Computer Studied YGN"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_unread
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model.fields,field_description:custom_student.field_customstudent__message_unread_counter
+#: model:ir.model.fields,field_description:custom_student.field_samplebiography__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model,name:custom_student.model_customstudent
+msgid "custom student sample"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model,name:custom_student.model_report_custom_student_sample_biography_excel_report_template
+msgid "report.custom_student.sample_biography_excel_report_template"
+msgstr ""
+
+#. module: custom_student
+#: model:ir.model,name:custom_student.model_reporting_wizard
+msgid "reporting.wizard"
+msgstr ""

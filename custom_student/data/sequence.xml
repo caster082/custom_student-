@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+<!--      auto genereate,  sequence for student-->
+        <record id="seq_samplebiography" model="ir.sequence">
+            <field name="name">Student Sequence</field>
+            <field name="code">samplebiography</field>
+            <field name="prefix">ST</field>
+            <field name="padding">6</field>
+            <field name="company_id" eval="False"></field>
+        </record>
+    </data>
+</odoo>

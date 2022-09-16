@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data noupdate="1">
+        <record id="sample_biography_cron" model="ir.cron">
+            <field name="name">Sample Biography</field>
+            <field name="model_id" ref="model_samplebiography"/>
+            <field name="type">ir.actions.server</field>
+<!--            run with python code-->
+            <field name="state">code</field>
+            <field name="code">model.sample_cron()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+<!--            number of call -1 mean indicate no limit-->
+            <field name="numbercall">-1</field>
+        </record>
+    </data>
+</odoo>

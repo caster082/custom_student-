@@ -1,0 +1,38 @@
+<odoo>
+    <data>
+
+               <record id="kanban_sample_biography" model="ir.ui.view">
+            <field name="name">kanban_sample_biography</field>
+            <field name="model">samplebiography</field>
+            <field name="arch" type="xml">
+<!--                show with kanban-->
+                <kanban class="o_kanban_mobile">
+<!--                 retrieve data and show in template-->
+                    <field name="id"/>
+                    <field name="image"/>
+                    <field name="name"/>
+                    <field name="phone"/>
+                    <field name="email"/>
+
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+<!--                                    record.id.raw value mean for binary-->
+                                    <img t-att-src="kanban_image('samplebiography', 'image', record.id.raw_value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <field name="name"/><br/>
+                                    <field name="phone"/><br/>
+                                    <field name="email"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+
+                </kanban>
+            </field>
+
+        </record>
+    </data>
+</odoo>

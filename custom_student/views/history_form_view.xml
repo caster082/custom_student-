@@ -1,0 +1,41 @@
+<odoo>
+    <data>
+        <record id="bio_history_form_view" model="ir.ui.view">
+            <field name="name">biography_history</field>
+            <field name="model">bio.history</field>
+            <field name="arch" type="xml">
+                <form string="Bio History">
+                    <sheet>
+                        <field name="image" widget="image" class="oe_avatar"/>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1>
+                                <field name="name" placeholder="Enter your name" required="True"/>
+                            </h1>
+                        </div>
+                        <group string="Information">
+                            <group>
+
+                                <field name="position"/>
+                                <field name="responsibilities"/>
+                            </group>
+                            <group>
+                                <field name="from_date"/>
+                                <field name="to_date"/>
+
+                            </group>
+                        </group>
+                        <group>
+                            <field name="description" nolabel="1"/>
+                        </group>
+
+
+                    </sheet>
+
+
+                </form>
+            </field>
+
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,65 @@
+<odoo>
+    <data>
+        <record id="kanban_custom_student" model="ir.ui.view">
+            <field name="name">kanban_custom_student</field>
+            <field name="model">customstudent</field>
+            <field name="arch" type="xml">
+<!--                show with kanban-->
+                <kanban class="o_kanban_mobile">
+                    <field name="id"/>
+                    <field name="image"/>
+                    <field name="student_name"/>
+                    <field name="phone"/>
+                    <field name="email"/>
+
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+<!--                                    record.id.raw value mean for binary-->
+                                    <img t-att-src="kanban_image('customstudent', 'image', record.id.raw_value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <field name="student_name"/><br/>
+                                    <field name="phone"/><br/>
+                                    <field name="email"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+
+                </kanban>
+            </field>
+
+        </record>
+<!--        show record in tree view when click student-->
+        <record id="custom_student_list" model="ir.ui.view">
+            <field name="name">tree_custom.student</field>
+            <field name="model">customstudent</field>
+            <field name="arch" type="xml">
+                <tree >
+                    <field name="id"/>
+                    <field name="student_name"/>
+                    <field name="nrc"/>
+                    <field name="phone"/>
+                    <field name="email"/>
+                </tree>
+            </field>
+        </record>
+
+<!--        window action-->
+        <record id="action_custom_student" model="ir.actions.act_window">
+            <field name="name">Custom Student</field>
+            <field name="res_model">customstudent</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="help" type="html">
+                <p>Create first custom student</p>
+            </field>
+        </record>
+
+<!--        menu item-->
+        <menuitem id="custom_student" name="Custom Student"/>
+        <menuitem id="custom_student_main" name="Main Info" parent="custom_student" sequence="10"/>
+        <menuitem id="custom_student_sample" name="Student" parent="custom_student_main" sequence="20" action="action_custom_student"></menuitem>
+    </data>
+</odoo>

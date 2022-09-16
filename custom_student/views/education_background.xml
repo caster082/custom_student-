@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!--        window action-->
+        <record id="action_education_background" model="ir.actions.act_window">
+            <field name="name">Education</field>
+            <field name="res_model">edubackground</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p>Create first Education</p>
+            </field>
+        </record>
+
+        <menuitem id="education_background" name="Configuration" parent="custom_student" sequence="20"/>
+        <menuitem id="edu_background_sub" name="Education Background" parent="education_background"
+                  action="action_education_background" sequence="10"/>
+
+    </data>
+</odoo>

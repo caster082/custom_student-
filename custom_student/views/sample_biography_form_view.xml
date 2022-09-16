@@ -1,0 +1,165 @@
+<odoo>
+    <data>
+        <record id="sample_biography_form_view" model="ir.ui.view">
+            <field name="name">sample_biography_form_view</field>
+            <field name="model">samplebiography</field>
+            <field name="arch" type="xml">
+                <form string="Student Biography">
+                    <header>
+
+                        <button name="action_send_email" type="object" string="Send Email" class="oe_highlight"/>
+
+
+                        <!--                        action print name is module name and report id-->
+                        <!--                        if you want to hide use invisible -->
+                        <button name="%(custom_student.sample_biography_report)d" type="action" states="confirm"
+                                string="Action Print" class="oe_highlight"/>
+
+                        <!--                        object type button-->
+                        <button name="print_sample_biography_report" type="object" states="confirm"
+                                string="Object Print" class="oe_highlight"/>
+                        <button name="print_sample_biography_excel_report" type="object" states="confirm"
+                                string="Excel Print" class="oe_highlight"/>
+
+
+                        <!--                         button-->
+                        <button name="action_draft" type="object" states="done" string="Draft" class="oe_highlight"/>
+                        <button name="action_confirm" type="object" states="draft" string="Confirm"
+                                class="oe_highlight" data-hotkey="C"/>
+                        <button name="action_done" type="object" states="confirm" string="Done" class="oe_highlight"/>
+
+<!--                        show only in developer mode-->
+                        <button name="action_share_whatsapp" type="object"  string="Share in WhatsApp"
+                                icon="fa-whatsapp" class="oe_highlight" groups="base.group_no_one" data-hotkey="W"/>
+                        <!--                         status bar-->
+                        <field name="state" widget="statusbar" statusbar_visible="draft,confirm,done"/>
+
+
+                    </header>
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+
+
+                            <!--                            education count -->
+                            <button name="open_education_background" type="object" class="oe_stat_button"
+                                    icon="fa-university">
+                                <field name="ebl_count" string="Education" widget="statinfo"/>
+                            </button>
+
+
+                            <!--                            archive button-->
+                            <button name="toggle_active" groups="base.group_no_one" type="object"
+                                    class="oe_stat_button" icon="fa-archive">
+
+                                <!-- <field name="active" widget="boolean_button options="{"terminology": "archive"}"/>-->
+                                <field name="active" widget="boolean_button" options='{"terminology": "archive"}'/>
+
+                            </button>
+
+
+                        </div>
+                        <div>
+                            <h1>
+                                <field name="reference" readonly="1"/>
+                                <field name="priority" widget="priority"/>
+                            </h1>
+                        </div>
+                        <field name="image" widget="image" class="oe_avatar"/>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1>
+                                <field name="name" placeholder="Enter your name" required="True"/>
+                            </h1>
+                            <field name="school_type"/>
+
+                        </div>
+                        <group string="Biography Information">
+                            <group>
+                                <field name="nrc" groups="custom_student.group_skill"/>
+                                <field name="phone" widget="phone"/>
+                                <field name="email" widget="email"/>
+                                <field name="planning_date"/>
+                                <field name="student_id"/>
+                                <field name="student_nrc"/>
+                            </group>
+                            <group>
+                                <field name="facebook" widget="CopyClipboardChar"/>
+                                <field name="date_of_birth" default_focus="1"/>
+                                <!--                                can change nae field lable with string -->
+                                <!--                                nolabel="1" is hide the label -->
+                                <field name="nationality" string="Religion"/>
+                            </group>
+
+                        </group>
+
+                        <group string="Other Information">
+                            <group>
+                                <field name="qualification"/>
+                                <field name="gender" widget="radio" options="{'horizontal': true}"/>
+                                <field name="age"/>
+                                <field name="address"/>
+                            </group>
+                            <group>
+<!--                                color circle-->
+<!--                                <field name="color" widget="color_picker"/>-->
+                                <field name="color" widget="color"/>
+                                <field name="toggle_active" widget="boolean_toggle"/>
+                                <field name="study_date" help="Remind for study"/>
+                                <field name="duration"/>
+
+                            </group>
+
+
+                        </group>
+                        <group>
+                            <field name="html_description" placeholder="Enter your description"
+                                   options="{'collaborative': true, 'resizable': true, 'codeview': true}"/>
+                        </group>
+
+                        <notebook>
+                            <page string="Education Background">
+                                <separator string="Education Background"/>
+                                <field name="education_background"/>
+                            </page>
+                            <page string="Bio History">
+
+                                <separator string="Bio History"/>
+                                <field name="bio_history"/>
+                            </page>
+                            <page string="Bio SKill">
+
+                                <separator string="Bio SKill"/>
+                                <field name="skill"/>
+                            </page>
+                            <page string="Progress">
+                                <!--                                <field name="progress" widget="progressbar"/>-->
+                                <field name="progress" widget="gauge"/>
+                                <!--                                <field name="progress" widget="percentpie"/>-->
+                                <!--                                <field name="progress" widget="progressbar" options="{'current_value': 'progress', 'max_value': '100', 'editable': true}"/>-->
+
+                            </page>
+
+
+                        </notebook>
+
+
+                    </sheet>
+
+                    <!--                    chatter under sheet view-->
+                    <div class="oe_chatter">
+                        <!--                        add follower and add channels-->
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <!--                        schedule activity-->
+                        <field name="activity_ids" widget="mail_activity"/>
+                        <!--                        log note and send message-->
+                        <field name="message_ids" widget="mail_thread"/>
+
+                    </div>
+
+
+                </form>
+            </field>
+
+        </record>
+    </data>
+</odoo>

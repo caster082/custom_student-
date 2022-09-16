@@ -1,0 +1,56 @@
+<odoo>
+    <data>
+        <template id="custom_student.customstudent_template">
+<!--            when write with t tag this is html tag crate-->
+            <t t-call="web.html_container">
+                <t t-call="web.basic_layout">
+                    <t t-foreach="docs" t-as="doc">
+                        <table class="table o_main_tables">
+                            <thead>
+                                <tr>
+                                    <th colspan="2" sytle="width:20%; text-align:center; vertical-align:middle;">
+                                        <h1>Student Report</h1>
+                                    </th>
+                                    <th sytle="text-align:center; vertical-align:middle;">
+                                        <div style="border:1px solid gray; height:2in; width:2in;">
+                                            <span t-field="doc.image"
+                                                  t-options="{'widget': 'image', 'style': 'height:100%; width:100%'}"/>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th style="width:25%;">Name</th>
+                                     <td colspan="2">: <span t-field="doc.name"/> </td>
+                                </tr>
+                                 <tr>
+                                    <th style="width:25%;">NRC</th>
+                                     <td colspan="2">: <span t-field="doc.nrc"/> </td>
+                                </tr>
+                                <tr>
+                                    <th style="width:25%;">Email</th>
+                                     <td colspan="2">: <span t-field="doc.email"/> </td>
+                                </tr>
+                                 <tr>
+                                    <th style="width:25%;">Phone</th>
+                                     <td colspan="2">: <span t-field="doc.phone"/> </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </t>
+
+                </t>
+            </t>
+        </template>
+
+<!--        string = report name in UI-->
+<!--        report type= pdf-->
+<!--        name= module name and template name and create template name in upper-->
+        <report id="custom_student_report" model="customstudent" string="Student Report"
+                report_type="qweb-pdf" name="custom_student.customstudent_template" file="custom_student.customstudent_template"/>
+    </data>
+</odoo>

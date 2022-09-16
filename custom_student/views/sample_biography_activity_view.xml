@@ -1,0 +1,25 @@
+<odoo>
+    <data>
+        <record id="sample_biography_activity" model="ir.ui.view">
+            <field name="name">activity_sample.biography</field>
+            <field name="model">samplebiography</field>
+            <field name="arch" type="xml">
+                <activity string="Student Info">
+                    <field name="skill"/>
+                     <field name="name"/>
+                    <templates>
+                        <div t-name="activity-box">
+<!--                            <img t-att-src="activity_image('samplebiography', 'image', 'record.skill.raw-value')"-->
+<!--                                 t-att-title="record.skill.value"/>-->
+                            <div>
+                                <field name="name" display="full"/>
+                            </div>
+                        </div>
+                    </templates>
+
+                </activity>
+
+            </field>
+        </record>
+    </data>
+</odoo>

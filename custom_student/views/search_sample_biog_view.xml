@@ -1,0 +1,24 @@
+<odoo>
+    <data>
+        <record id="search_sample_biography" model="ir.ui.view">
+            <field name="name">search_sample.biography</field>
+            <field name="model">samplebiography</field>
+            <field name="arch" type="xml">
+                <search string="Sample Biography">
+                    <field name="name"/>
+                    <field name="nrc"/>
+
+                    <filter name="male" string="Male" domain="[('gender', '=', 'male')]"/>
+                    <filter name="female" string="Female" domain="[('gender', '=', 'female')]"/>
+
+                    <group string="Group By">
+                        <filter name="gender" string="Gender" context="{'group_by': 'gender'}"/>
+                        <filter name="school_type" string="School" context="{'group_by': 'school_type'}"/>
+
+                    </group>
+                  
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+
+<!--        excel menu-->
+        <report id="custom_student_excel_report" model="customstudent"
+                string="Student Excel Report" report_type="xlsx"
+                name="custom_student.custom_student_excel_report_id"
+                file="custom_student.custom_student_excel_report_id"/>
+    </data>
+</odoo>

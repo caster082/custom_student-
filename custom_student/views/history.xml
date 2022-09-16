@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!--        window action-->
+        <record id="action_history" model="ir.actions.act_window">
+            <field name="name">Bio History</field>
+            <field name="res_model">bio.history</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p>Create first Bio History</p>
+            </field>
+        </record>
+
+
+        <menuitem id="bio_history" name="Bio History" parent="education_background"
+                  action="action_history" sequence="20"/>
+
+    </data>
+</odoo>
