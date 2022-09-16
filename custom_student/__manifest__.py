@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "custom_student",
+    'name': "MIT School Management System",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -11,6 +11,7 @@
     """,
 
     'author': "Thandar",
+    'maintainer': 'Khant Sithu Aung',
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
